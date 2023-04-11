@@ -5,14 +5,14 @@ i = 1
 diez = "#"
 space = " "
 
-if number <= 0 || number >= 25
+if number <= 0 || number >= 26
     puts "Tu sais pas lire"
 else
     
-    while i <= number
+    while i < number
         if i % 2 == 1
         decal = (number - i)/2
-        puts (space * decal) + (diez * i) + (space * decal)
+        puts (space * decal) + (diez * i ) + (space * decal)
         end
         i += 1
     end
